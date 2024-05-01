@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.react-animate {
+  animation: reactspin 3s infinite linear;
+}
+
+@keyframes reactspin {
+  from {
+    transform: rotateZ(0deg);
+  }
+
+  to {
+    transform: rotateZ(360deg);
+  }
+}
